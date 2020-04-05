@@ -208,6 +208,8 @@ const sections = [
     
 ]
 
+
+
 export default function Main() {
     return (
         <ScrollView>
@@ -220,7 +222,7 @@ export default function Main() {
                 >
                 </LinearGradient>
 
-                <TouchableOpacity onPress={() => {}} style={{ padding: 5, width: 30, height: 30, alignSelf: 'flex-end' }}>
+                <TouchableOpacity onPress={() => {}} style={ styles.settingsButton }>
                     <SimpleLineIcons name="settings" size={20} color="#fff" />
                 </TouchableOpacity>
                 
@@ -278,4 +280,10 @@ const styles = StyleSheet.create({
         fontSize: 20,
         marginBottom: 20
     },
+    settingsButton: { 
+        padding: 5, 
+        width: 30, 
+        height: 30, 
+        alignSelf: 'flex-end' 
+    }
 })

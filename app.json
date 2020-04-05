@@ -16,6 +16,11 @@
       "height": 70,
       "backgroundColor": "#121212"
     },
+    "androidStatusBarColor": "#fff",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "rgba(0,0,0,0.5)"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
